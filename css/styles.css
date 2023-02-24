@@ -8,6 +8,18 @@ body {
   font-family: 'Roboto', sans-serif;
   color: var(--primary-text);
 }
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
 /* ===============root===============  */
 :root {
   --cloud-light-background: #f4f4fd;
@@ -130,10 +142,6 @@ body {
 
 .footer-btn-studio {
   color: var(--cloud-light-background);
-}
-.footer-btn .footer-btn-studio:hover,
-.footer-btn .footer-btn-studio:focus {
-  color: var(--hover-ocean);
 }
 
 .footer-text {
